@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "dnsLabelPrefix": {
+      "value": ""
+    },
+    "adminUsername":{
+        "value": ""
+    },
+    "adminPassword": {
+      "value": ""
+    },
+    "adDomainName":{
+        "value": ""
+    },
+    "domainAdminUsername" :{
+        "value": ""
+    },
+    "domainAdminPassword" :{
+        "value": ""
+    },
+    "adVnetName":{
+        "value": ""
+    },
+    "adVnetRG":{
+        "value": ""
+    },
+    "adSubnetName":{
+        "value": ""
+    },
+    "numberOfRdshInstances":{
+        "value": 1
+    },
+    "rdshVmSize":{
+        "value": "Standard_D2_v2"
+    }
+  }
+}
